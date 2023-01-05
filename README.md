@@ -1,2 +1,2 @@
 # pweb4
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Balieiropk1/pweb4/main/ubuinst3.sh)
+apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://github.com/Balieiropk1/pweb4/raw/main/install/ubuinst.sh)
