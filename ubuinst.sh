@@ -336,7 +336,7 @@ echo ""
 echo -e "Painel WEB A.I" | figlet
 echo -e "                              \033[1;31mBy @PainelWebAI\033[1;36m"
 echo ""
-chave=$(curl -sSL "raw.githubusercontent.com/Balieiropk1/pweb/painel/install/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/Balieiropk1/pweb4/main/install/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
