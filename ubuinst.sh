@@ -333,14 +333,14 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-echo -e "Painel WEB A.I" | figlet
-echo -e "                              \033[1;31mBy @PainelWebAI\033[1;36m"
+echo -e "TunnelPro" | figlet
+echo -e "                              \033[1;31mBy TunnelPro\033[1;36m"
 echo ""
 chave=$(curl -sSL "https://raw.githubusercontent.com/Balieiropk1/pweb4/main/install/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
-         if [[ "$key" = "$chave" ]]
+         if [[ "$key" = "Tunnelpro" ]]
           then
                echo -e "[*] VALIDANDO A CHAVE DE INSTALAÇÃO"
                 sleep 2
